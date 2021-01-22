@@ -1,0 +1,43 @@
+{
+   "namespace": "my.test4",
+   "name": "value",
+   "type": "record",
+   "fields" : [
+     {
+       "name" : "full_text",
+       "type" : "string"
+     },
+    {
+       "name" : "id_str",
+       "type" : "string"
+     },
+    {
+       "name" : "user_created_at",
+       "type" : "string"
+     },
+     {
+       "name" : "source",
+       "type" : "string"
+     },
+    {
+       "name" : "user_name",
+       "type" : "string"
+     },
+    {
+       "name" : "user_followers",
+       "type" : "string"
+     },
+     {
+       "name" : "user_years_ago",
+       "type" : "string"
+     },
+    {
+       "name" : "user_os",
+       "type" : "string"
+     },
+    {
+       "name" : "user_friends",
+       "type" : "string"
+     }
+   ]
+}

@@ -1,0 +1,11 @@
+{
+   "namespace": "my.id",
+   "name": "key",
+   "type": "record",
+   "fields" : [
+     {
+       "name" : "id_str",
+       "type" : "string"
+     }
+   ]
+}
