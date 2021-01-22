@@ -19,7 +19,7 @@ Now, clone or download this repo and move to the container, you can use git clon
 
 ## Workflow
 1. Open twitter and tweet some like: 
-Hello #FrankoPromotion, I'm waiting my promotions franko.95.12@gmail.com please call me 922138798 :D.
+> Hello #FrankoPromotion, I'm waiting my promotions franko.95.12@gmail.com please call me 922138798 :D.
 2. Then go to kafka http://localhost:9021, and create a topic named: **coedata_topic** and from it create a stream named **COEDATA_STREAM**. 
 3. Now, Once you setted the credentials to .py files , run the producerAvroTwitterKafka.py file (if prefer open and copy code using .ipynb notebook files in jupyter). Jupyter is running on : http://localhost:1002
 4. This producer execution will connect to twitter and query the terms defined in the consumer for us #FrankoPromotion and will connect to kafka for sink the events in **coedata_topic** using an avro schema.
@@ -43,6 +43,8 @@ case when CAST(user_years_ago AS INT) >10 then 'cat1'
 FROM COEDATA_STREAM;
 ```
 6. At this point this last sentence was resolved a couple of transformations and sinked events to **COEDATA_STREAM_TOPIC** topic, the one who our consumer will use.
-7. Finally open the file in the jupyter container consumerJsonTwitterKafka.py or .ipynb if you prefer and run it. You will have some promotions in your mail or whatsapp(check twilio -not free).
+7. Finally open the file in the jupyter container consumerJsonTwitterKafka.py or .ipynb if you prefer and run it. 
+
+You will have some promotions in your mail or whatsapp :+1: (check twilio -not free).
 
 
